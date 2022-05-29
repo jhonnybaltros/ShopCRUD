@@ -17,7 +17,6 @@ steps:
     command: restore
     projects: '**/*.csproj'
     feedsToUse: config
-    nugetConfigPath: NuGet.config
     packDirectory: $(System.DefaultWorkingDirectory)/jhonnybaltros/ShopCRUD
 
 - task: DotNetCoreCLI@2
