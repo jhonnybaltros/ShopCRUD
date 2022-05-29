@@ -1,4 +1,4 @@
-name: Shop-CRUD $(Build.BuildNumber) $(Date:MM)
+name: Shop-CRUD $(Build.BuildId) $(Date:MM)
 
 trigger:
 - master
