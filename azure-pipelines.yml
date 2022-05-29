@@ -18,6 +18,7 @@ steps:
     projects: '**/*.csproj'
     feedsToUse: config
     nugetConfigPath: NuGet.config
+    packDirectory: $(System.DefaultWorkingDirectory)/jhonnybaltros/ShopCRUD
 
 - task: DotNetCoreCLI@2
   displayName: Build
